@@ -1,0 +1,37 @@
+.banner{
+    background: url('../../images/banner.jpg')no-repeat center center;
+    height: 50vh;
+    position: relative;
+    background-size: cover;
+}
+.banner_search{
+    display: flex;
+    flex-direction: column;
+}
+.banner_searchButton{
+    background-color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    color:#ff7779 !important;
+}
+.banner_info{
+    background-color: black;
+    color: white;
+    padding:25vh 50px 50px 40px;
+    width: 300px;
+}
+
+.banner_info > button{
+    background-color: #ff7779;
+    color: white;
+    text-transform: inherit;
+    margin-top: 20px;
+    font-weight:600;
+}
+.banner_info > button:hover{
+    background-color: whitesmoke;
+    color:#ff7779da;
+}
+.banner_info >h5{
+    margin-top: 8px;
+}
